@@ -21,14 +21,11 @@ Once I had analysed the data and found the relationships between the variables, 
 
 I trained 5 Machine Learning models and obtained the following results in terms of model classification accuracy:
 
-'Logistic Regression': 0.996995029616555,
-'KNN': 0.9989911240574499,
-'Random Forest': 0.999980147342812,
-'SGD': 0.9725221176648944,
-'XGBClassifier': 0.9999837569168463,
-'DecisionTreeClassifier': 0.9999693186207096}
--
--
--
--
+- 'Logistic Regression': 0.996995029616555
+- 'KNN': 0.9989911240574499
+- 'Random Forest': 0.999980147342812
+- 'SGD': 0.9725221176648944
+- 'XGBClassifier': 0.9999837569168463
+- 'DecisionTreeClassifier': 0.9999693186207096
+
 
