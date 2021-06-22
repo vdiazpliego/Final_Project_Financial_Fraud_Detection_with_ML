@@ -1,7 +1,6 @@
-# Final_Project_Financial_Fraud_Detection_with_ML
-Financial Fraud Detection with Machine Learning, EDA and Visualisation
+# Financial Fraud Detection with Machine Learning, EDA and Visualisation
 
-Technologies used for analysis:
+## Technologies used for analysis:
 - Python
 - Supervised Machine Learning
 - SQL
@@ -28,9 +27,15 @@ I trained 5 Machine Learning models and obtained the following results in terms 
 - XGBClassifier: 0.9999837569168463
 - DecisionTreeClassifier: 0.9999693186207096
 
-En este momento, con los resultados obtenidos, decidí entrenar por separado el mejor modelo : XGBClassifier 99.9983%
+At this point, with the results obtained, I decided to train the best model separately: XGBClassifier 99.9983%.
+
+When training the models, I used only a part of the data in order to be able to predict with the rest of the unused data and not overfit the model in the first instance. (Train Test Split).
+
+The viability of the model is tested: Only the prediction of whether it is fraud or genuine fails 9 times out of 500,000 data.
+
+To improve the model, the model is trained with the full set of data from the Transfers and Cash Out DataFrame (only operations where we have detected fraud). With this action the model improves to 99.9989%, with an error of 30 predictions out of 3 million.
+
+I created the model, imported the dataset into a mySQL database and created the excel files needed to visualise all the insights through the Power BI visualisation tool.
 
 
-A la hora de entrenar los modelos, utilicé solo una parte de los datos para poder predecir con los el resto de datos sin utilizar y así no sobreentrenar el modelo en primera instancia. (Train Test Split)
-
-
+This project has been very satisfying for me, as I have been able to test all the tools I have learnt in IRONHACK. 
