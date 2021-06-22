@@ -31,6 +31,8 @@ At this point, with the results obtained, I decided to train the best model sepa
 
 When training the models, I used only a part of the data in order to be able to predict with the rest of the unused data and not overtrain the model in the first instance. (Train Test Split).
 
+The viability of the model is tested: Only the prediction of whether it is fraud or genuine fails 9 times out of 500,000 data.
 
+To improve the model, the model is trained with the full set of data from the Transfers and Cash Out DataFrame (only operations where we have detected fraud). With this action the model improves to 99.9989%, with an error of 30 predictions out of 3 million.
 
 
