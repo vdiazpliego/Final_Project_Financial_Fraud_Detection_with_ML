@@ -27,7 +27,7 @@ I trained 5 Machine Learning models and obtained the following results in terms 
 - XGBClassifier: 0.9999837569168463
 - DecisionTreeClassifier: 0.9999693186207096
 
-At this point, with the results obtained, I decided to train the best model separately: ## XGBClassifier 99.9983%.
+At this point, with the results obtained, I decided to train the best model separately: ##XGBClassifier 99.9983%.
 
 When training the models, I used only a part of the data in order to be able to predict with the rest of the unused data and not overfit the model in the first instance. (Train Test Split).
 
